@@ -22,7 +22,7 @@ ln -s /opt/nodejs/bin/node /usr/bin/node
 ln -s /opt/nodejs/bin/npm /usr/bin/npm
 
 # Clone git
-gcloud source repos clone compute-101  /opt/app --project=$PROJECTID
+gcloud source repos clone <repo name>  /opt/app --project=$PROJECTID
 
 
 cd /opt/app/
