@@ -1,0 +1,1 @@
+gcloud compute http-health-checks create app-server-health-check --request-path /
